@@ -9,8 +9,4 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-app.get("/",(req,res)=>{
-    res.send("success");
-});
-
-app.listen(PORT,()=>console.log(`listening at ${PORT}...`));
+app.get("/",())

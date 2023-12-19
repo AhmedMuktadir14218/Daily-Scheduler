@@ -10,7 +10,5 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/",(req,res)=>{
-    res.send("success");
-});
-
-app.listen(PORT,()=>console.log(`listening at ${PORT}...`));
+    
+})
