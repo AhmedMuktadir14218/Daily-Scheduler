@@ -11,8 +11,8 @@ app.use(cors());
 
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = `mongodb+srv://ahmed:${process.env.DB_PASS}@cluster0.wsugidy.mongodb.net/?retryWrites=true&w=majority`;
-console.log(uri)
+const uri = `mongodb+srv://ahmed:@cluster0.wsugidy.mongodb.net/?retryWrites=true&w=majority`;
+
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
